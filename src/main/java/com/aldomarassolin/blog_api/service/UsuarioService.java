@@ -1,7 +1,7 @@
 package com.aldomarassolin.blog_api.service;
 
 import com.aldomarassolin.blog_api.config.JwtTokenProvider;
-import com.aldomarassolin.blog_api.model.Usuario;
+import com.aldomarassolin.blog_api.model.usuario.Usuario;
 import com.aldomarassolin.blog_api.repository.IUsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;

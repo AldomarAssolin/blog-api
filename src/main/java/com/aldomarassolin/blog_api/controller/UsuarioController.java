@@ -1,7 +1,7 @@
 package com.aldomarassolin.blog_api.controller;
 
 
-import com.aldomarassolin.blog_api.model.Usuario;
+import com.aldomarassolin.blog_api.model.usuario.Usuario;
 import com.aldomarassolin.blog_api.service.UsuarioService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +41,6 @@ public class UsuarioController {
 
     //recuperar senha
     //atualizar senha
-    //deletar usuario(criar atributo status na classe Usuarios
+    //deletar usuario(criar atributo status na classe Usuarios)
 
 }

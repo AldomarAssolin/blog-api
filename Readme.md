@@ -9,8 +9,8 @@
 ## **Sumário**
 1. [Integrantes do Grupo](#integrantes)  
 2. [Tecnologias Utilizadas](#tecnologias)
-3. [Tecnologias EnvolvidasFuncionalidades Principais](#principais)  
-4. [Funcionalidades Detalhadas do Blog](#funcionalidades)
+3. [Funcionalidades Principais](#principais)
+4. [Funcionalidades Detalhadas do Blog](#funcionalidades) 
 5. [Definição dos Endpoints Principais](#endpoints)
    
    5.1 [Autenticação de Usuários](#usuarios)
@@ -71,9 +71,9 @@ Alguns endpoints definidos com base nas funcionalidades descritas:
 
 ### 5.1 Autenticação de Usuários: <a name="usuarios"></a>
 ````http
-POST /api/auth/signup  //Cadastro de novos usuários
-POST /api/auth/login //Login de usuários
-POST /api/auth/forgot-password //Recuperação de senha
+POST /api/usuarios/signup  //Cadastro de novos usuários
+POST /api/usuarios/login //Login de usuários
+POST /api/usuarios/forgot-password //Recuperação de senha
 ````
 
 

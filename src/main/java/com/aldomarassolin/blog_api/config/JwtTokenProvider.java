@@ -1,7 +1,7 @@
 package com.aldomarassolin.blog_api.config;
 
 import io.jsonwebtoken.Jwts;
-import com.aldomarassolin.blog_api.model.Usuario;
+import com.aldomarassolin.blog_api.model.usuario.Usuario;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.stereotype.Component;
